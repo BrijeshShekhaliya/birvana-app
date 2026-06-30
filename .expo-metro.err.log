@@ -1,0 +1,15 @@
+D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\node_modules\expo\node_modules\@expo\cli\build\src\utils\errors.js:130
+    throw error;
+    ^
+
+TypeError: Cannot read properties of undefined (reading 'addedFiles')
+    at DependencyGraph._onHasteChange (D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\node_modules\metro\src\node-haste\DependencyGraph.js:99:18)
+    at FileMap.<anonymous> (D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\node_modules\metro\src\node-haste\DependencyGraph.js:68:14)
+    at FileMap.emit (node:events:520:35)
+    at Object.onChange (D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\node_modules\react-native-css-interop\dist\metro\index.js:179:19)
+    at ChildProcess.<anonymous> (D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\node_modules\nativewind\dist\metro\tailwind\v3\index.js:51:37)
+    at ChildProcess.emit (node:events:508:28)
+    at emit (node:internal/child_process:948:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+
+Node.js v24.14.1

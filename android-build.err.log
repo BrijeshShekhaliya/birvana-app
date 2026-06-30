@@ -1,0 +1,425 @@
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-mmkv:buildCMakeDebug[arm64-v8a]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\node_modules\react-native-mmkv\android\.cxx\Debug\a2m592xa\arm64-v8a'
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  [0/1] Re-running CMake...
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/Work/Projects/Personal/Project/ai-music-platform-main/apps/mobile/node_modules/react-native-mmkv/android/.cxx/Debug/a2m592xa/arm64-v8a
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\brije\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "D:\\Work\\Projects\\Personal\\Project\\ai-music-platform-main\\apps\\mobile\\node_modules\\react-native-mmkv\\android\\.cxx\\Debug\\a2m592xa\\arm64-v8a" ^
+        NitroMmkv
+    from D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\node_modules\react-native-mmkv\android
+  ninja: error: manifest 'build.ninja' still dirty after 100 tries
+  
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2m 45s

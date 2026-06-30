@@ -1,0 +1,10 @@
+env: load .env.local
+env: export EXPO_PUBLIC_API_URL EXPO_PUBLIC_APP_ENV EXPO_PUBLIC_ENABLE_TRACK_PLAYER EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY EXPO_PUBLIC_SUPABASE_URL
+Starting project at D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile
+Logs: D:\Work\Projects\Personal\Project\ai-music-platform-main\apps\mobile\.expo\dev\logs\start.log
+Starting Metro Bundler
+
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Android Bundled 14806ms index.ts (1679 modules)
