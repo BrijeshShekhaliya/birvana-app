@@ -22,6 +22,9 @@ const config = {
     },
     supportsTablet: false,
     bundleIdentifier: 'com.birvana.mobile',
+    runtimeVersion: {
+      policy: 'appVersion'
+    }
   },
   android: {
     edgeToEdge: true,
@@ -49,12 +52,19 @@ const config = {
     },
     predictiveBackGestureEnabled: true,
     allowBackup: false,
+    runtimeVersion: '1.0.0',
   },
   web: {
     bundler: 'metro',
     favicon: './assets/favicon.png',
   },
+  updates: {
+    url: 'https://u.expo.dev/d71bb4b4-2313-4a93-8734-54c894b4d6e9'
+  },
   extra: {
+    eas: {
+      projectId: 'd71bb4b4-2313-4a93-8734-54c894b4d6e9'
+    },
     appEnv: process.env.EXPO_PUBLIC_APP_ENV ?? 'development',
   },
 } as ExpoConfig & { newArchEnabled?: boolean };
