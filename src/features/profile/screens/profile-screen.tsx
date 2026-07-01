@@ -72,6 +72,7 @@ export function ProfileScreen({ navigation }: ProfileScreenProps) {
   const insets = useSafeAreaInsets();
   const theme = useAppTheme();
   const user = useAuthStore((state) => state.user);
+  console.log('ProfileScreen mounting for OTA update test');
   const isStacEnabled = useUIStore((state) => state.isStacEnabled);
   const setStacEnabled = useUIStore((state) => state.setStacEnabled);
   const logout = useLogoutMutation();
