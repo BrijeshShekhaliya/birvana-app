@@ -2,64 +2,45 @@
   <img src="../web 2/public/assets/birvana-mark.png" alt="Birvana Logo" width="120" />
 </div>
 
-<h1 align="center">Birvana — Android Application</h1>
+<h1 align="center">Birvana Music App</h1>
 
 <p align="center">
   <strong>The Ultimate High-Fidelity Music Streaming Experience for Android</strong>
 </p>
 
 <p align="center">
-  <a href="https://birvana.app">Website</a> •
-  <a href="https://github.com/BrijeshShekhaliya/birvana.web/releases">Download APK</a>
+  <a href="https://github.com/BrijeshShekhaliya/birvana.web/releases">
+    <img src="https://img.shields.io/badge/Download-APK-1DB954?style=for-the-badge&logo=android" alt="Download APK" />
+  </a>
 </p>
 
 <br>
 
-Birvana is a premium, beautifully designed music streaming application built for Android audiophiles. It combines a stunning Material You-inspired user interface with a powerful custom audio playback engine to deliver millions of songs in pristine, lossless quality.
+Birvana is a beautifully designed, premium music streaming application built for Android. It combines a stunning, modern user interface with a powerful audio engine to deliver millions of songs in pristine, lossless quality.
 
-This repository contains the source code for the official Birvana mobile application.
+## ✨ Features
 
-## ✨ Application Features
+- **High-Fidelity Audio:** Stream pristine, lossless audio directly to your device for the ultimate listening experience.
+- **Smart Recommendations:** Discover new music with intelligent algorithms that learn your unique listening habits.
+- **Unified Search:** Instantly find any song, artist, or album across massive global media catalogs.
+- **Offline Listening:** Download your favorite tracks and enjoy uninterrupted playback even without an internet connection.
+- **Immersive Design:** Experience a gorgeous, fluid, and dynamic interface that automatically adapts to the music you are listening to.
+- **Background Playback:** Seamlessly control your music from your lock screen, notifications, or while using other apps.
 
-- **High-Fidelity Audio:** Stream pristine, lossless FLAC and high-bitrate MP3s directly to your device.
-- **Intelligent Discovery:** Smart recommendation algorithms that understand your listening habits.
-- **Unified Search Pipeline:** Lightning-fast aggregate search across multiple massive media catalogs.
-- **Offline Library:** Robust caching and local storage engine for seamless playback without an internet connection.
-- **Audiophile Engine:** Custom low-latency playback engine with granular EQ controls and gapless playback.
-- **Immersive UI:** A gorgeous, fluid, and dynamic user interface with glassmorphism, real-time palette extraction, and buttery-smooth micro-animations.
-- **Background Playback:** Deep OS integration for background streaming, media session controls, and notification playback widgets.
+## 📥 Installation
 
-## 💻 Tech Stack
+1. Click the **Download APK** button above to get the latest release.
+2. Open the downloaded `.apk` file on your Android device.
+3. If prompted, allow installation from "Unknown Sources" in your device settings.
+4. Open Birvana and start streaming your favorite music!
 
-- **Framework:** React Native / Expo
-- **Language:** TypeScript
-- **State Management:** Zustand / Redux (depending on modules)
-- **Audio Engine:** Custom native modules for high-fidelity audio decoding
-- **UI:** Reanimated & Custom styling engines
+## 📄 Privacy & Data
 
-## 🚀 Local Development
+Birvana is built with a strict privacy-first philosophy. We believe your data belongs to you. We **do not** require you to create an account, and we **never** collect, store, or sell any of your personally identifiable information. All your listening history and downloaded music stay securely on your own device.
 
-To run this application locally on your machine or physical Android device:
+## ⚖️ License
 
-```bash
-# Clone the repository
-git clone <your-repo-url>
-
-# Navigate into the directory
-cd mobile-app
-
-# Install dependencies
-npm install
-
-# Start the Expo Metro bundler
-npm run start
-
-# Press 'a' to run on Android emulator or connected device
-```
-
-## 📄 Privacy Philosophy
-
-Birvana operates as a standalone media player and audio discovery client. We strongly believe that your data belongs to you. We do not require account creation, nor do we collect, store, or sell personally identifiable information (PII). All local caching and playback history remains safely on your device.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 <div align="center">
