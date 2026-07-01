@@ -14,7 +14,7 @@ import { AppText } from '@/components/primitives/AppText';
 import { Button } from '@/components/primitives/Button';
 import { Card } from '@/components/primitives/Card';
 import { profileQueryOptions } from '@/features/auth/queries/profile.query';
-import { useLogoutMutation } from '@/features/auth/queries/auth.mutations';
+import { useLogoutMutation, useDeleteAccountMutation } from '@/features/auth/queries/auth.mutations';
 import { getAuthErrorMessage } from '@/features/auth/utils/auth-errors';
 
 import type { AppStackParamList } from '@/navigation/types';
@@ -75,9 +75,11 @@ export function ProfileScreen({ navigation }: ProfileScreenProps) {
   const isStacEnabled = useUIStore((state) => state.isStacEnabled);
   const setStacEnabled = useUIStore((state) => state.setStacEnabled);
   const logout = useLogoutMutation();
+  const deleteAccount = useDeleteAccountMutation();
   const profileQuery = useQuery(profileQueryOptions(user?.id ?? ''));
   const queryClient = useQueryClient();
   const [isRestarting, setIsRestarting] = useState(false);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
 
   const handleToggle = (value: boolean) => {
     setIsRestarting(true);
@@ -264,7 +266,7 @@ export function ProfileScreen({ navigation }: ProfileScreenProps) {
           ) : null}
 
           <TouchableOpacity
-            disabled={logout.isPending}
+            disabled={logout.isPending || deleteAccount.isPending}
             onPress={() => logout.mutate()}
             style={{
               marginTop: 24,
@@ -278,8 +280,73 @@ export function ProfileScreen({ navigation }: ProfileScreenProps) {
               {logout.isPending ? 'Signing out...' : 'Sign out'}
             </AppText>
           </TouchableOpacity>
+
+          {/* Delete Account Button */}
+          <TouchableOpacity
+            disabled={logout.isPending || deleteAccount.isPending}
+            onPress={() => setShowDeleteModal(true)}
+            style={{
+              marginTop: 16,
+              alignSelf: 'center',
+              paddingVertical: 14,
+              paddingHorizontal: 32,
+              borderRadius: 30,
+              backgroundColor: 'rgba(255, 68, 68, 0.1)',
+            }}
+          >
+            <AppText style={{ color: '#FF4444', fontSize: 14, fontWeight: '600' }}>
+              Delete Account
+            </AppText>
+          </TouchableOpacity>
         </View>
       </ScrollView>
+
+      {/* Delete Confirmation Modal */}
+      {showDeleteModal && (
+        <View style={{
+          position: 'absolute', top: 0, left: 0, right: 0, bottom: 0,
+          backgroundColor: 'rgba(0,0,0,0.8)', zIndex: 10000,
+          justifyContent: 'center', alignItems: 'center', padding: 24
+        }}>
+          <View style={{
+            backgroundColor: '#1A1A1A', padding: 24, borderRadius: 20, width: '100%',
+            borderWidth: 1, borderColor: 'rgba(255,68,68,0.3)'
+          }}>
+            <AppText style={{ fontSize: 20, fontWeight: 'bold', color: '#FFF', marginBottom: 12 }}>
+              Delete Account
+            </AppText>
+            <AppText style={{ fontSize: 14, color: 'rgba(255,255,255,0.7)', marginBottom: 24, lineHeight: 20 }}>
+              This action is permanent and will destroy all your saved data. This cannot be undone. Are you sure?
+            </AppText>
+            
+            {deleteAccount.isError && (
+              <AppText style={{ color: '#FF4444', marginBottom: 16, fontSize: 13 }}>
+                {getAuthErrorMessage(deleteAccount.error, 'Failed to delete account.')}
+              </AppText>
+            )}
+
+            <View style={{ flexDirection: 'row', gap: 12 }}>
+              <TouchableOpacity
+                onPress={() => setShowDeleteModal(false)}
+                style={{ flex: 1, padding: 14, borderRadius: 12, backgroundColor: '#333', alignItems: 'center' }}
+              >
+                <AppText style={{ color: '#FFF', fontWeight: '600' }}>Cancel</AppText>
+              </TouchableOpacity>
+              <TouchableOpacity
+                disabled={deleteAccount.isPending}
+                onPress={() => deleteAccount.mutate(undefined, {
+                  onSuccess: () => setShowDeleteModal(false)
+                })}
+                style={{ flex: 1, padding: 14, borderRadius: 12, backgroundColor: '#FF4444', alignItems: 'center', opacity: deleteAccount.isPending ? 0.5 : 1 }}
+              >
+                <AppText style={{ color: '#FFF', fontWeight: '600' }}>
+                  {deleteAccount.isPending ? 'Deleting...' : 'Confirm'}
+                </AppText>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </View>
+      )}
     </View>
   );
 }

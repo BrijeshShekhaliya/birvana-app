@@ -107,3 +107,27 @@ export function useLogoutMutation() {
     },
   });
 }
+
+export function useDeleteAccountMutation() {
+  const queryClient = useQueryClient();
+  const clearPendingVerification = useAuthFlowStore(
+    (state) => state.clearPendingVerification,
+  );
+
+  return useMutation({
+    mutationFn: authApi.deleteAccount,
+    onMutate: async () => {
+      try {
+        const { resetPlayback } = await import('@/services/audio/playback-controller.native');
+        await resetPlayback();
+      } catch (e) {
+        console.warn('Failed to stop playback on account deletion', e);
+      }
+    },
+    onSuccess: async () => {
+      clearPendingVerification();
+      await queryClient.cancelQueries();
+      queryClient.removeQueries({ queryKey: queryKeys.auth.all });
+    },
+  });
+}
