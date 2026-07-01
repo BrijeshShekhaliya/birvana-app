@@ -67,6 +67,7 @@
     "android:windows": "powershell -ExecutionPolicy Bypass -File ./scripts/run-android-windows.ps1",
     "ios": "expo run:ios",
     "web": "expo start --web",
+    "update-web-release": "node ./scripts/update-web-release.js",
     "postinstall": "node ./scripts/patch-rn-gradle-plugin.mjs",
     "typecheck": "tsc --noEmit",
     "doctor": "npx expo-doctor",
